@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html { 
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px 0px;
+    width: 100vw;
+    font-size: 1.4rem;
+
+}
+.main-nav ul{ 
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin: 0.7rem;
+    }
+ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    }
+
+
+.puntos-png {
+    width: 70%;
+    padding-top: 4px;
+}
+.user {
+    width: 35px;
+    justify-content: center;
+}
+.user-img { 
+    width: 90%;
+}
+main {
+    height: 76vh;
+
+}
+
+.content-logo { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    height: 180px;
+    margin-top: 80px;
+
+}
+
+.google-logo img { 
+    width: 60%;
+    justify-content: center;
+
+}
+
+
+.content-searchbar { 
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+figure { 
+    display: flex;
+    justify-content: center;
+
+}
+.icon {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    padding: 8px;
+
+}
+
+.icon img {
+    width: 75%;
+}
+
+
+.content-searchbar-wrapper {
+    display: flex;
+    width: 550px;
+    height: 40px;
+    border: solid 1px gray;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+.searching-box { 
+    width: 500px;
+
+}
+.searching-container {
+    width: 350px;
+    height: 30px;
+    border-style: none;
+}
+
+.searching-container:focus-visible {
+    outline-color: transparent;
+}
+
+.content-buttons {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 24px 0px;
+}
+
+.search-button { 
+    border-radius: 5px;
+    width: 154px;
+    height: 40px;
+    margin-left: 12px;
+    font-size: 1.4rem;
+    border-color: transparent;
+}
+
+.search-button:hover {
+    cursor: pointer;
+    border-color: black;
+}
+.footer {
+    width: 100%;
+    height: 75px;
+    display:block;
+    position: absolute;
+    margin: 0;
+    background-color: lightgray;
+    border-top: solid 1px gray;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    font-size: 1.6rem;
+}
+
+.footer-menu a {
+    padding: 25px 4px;
+    text-decoration: none;
+    margin: 8px;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.footer-container { 
+    margin-top: 20px;
+}
